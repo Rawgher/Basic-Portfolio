@@ -10,7 +10,7 @@
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 25px;
     border-radius: 4px;
 }
@@ -30,4 +30,12 @@
 
 .header-right {
     float: right;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 200px 200px;
+    grid-column-gap: 20px;
 }
