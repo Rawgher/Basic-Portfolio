@@ -1,7 +1,11 @@
+body {
+    background-color: #dddddd;
+}
 .header {
     overflow: hidden;
     background-color: #fff;
     padding: 20px 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .header a {
@@ -41,6 +45,18 @@
 }
 
 .bottom-center {
-    position: absolute;
-    
+    position: fixed;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    bottom: 10px;
+}
+
+.content {
+    grid-column: center;
+    width: 960px;
+    padding: 50px;
+    border: 13px 270px;
 }
