@@ -1,8 +1,10 @@
 body {
     background-color: #dddddd;
 }
+
 .header {
     overflow: hidden;
+    position: relative;
     background-color: #fff;
     padding: 20px 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -39,19 +41,19 @@ body {
 
 .grid-container {
     display: grid;
-    grid-row-gap: 30px;
+    grid-row-gap: 0px;
     grid-template-columns: 200px 200px;
-    grid-column-gap: 20px;
+    grid-column-gap: 30px;
 }
 
 .bottom-center {
-    position: fixed;
+    position: relative;
     text-align: center;
     background-color: #4aaaa5;
     color: white;
     padding: 12px;
     text-align: center;
-    bottom: 10px;
+    bottom: 50px;
 }
 
 .content {
@@ -59,4 +61,13 @@ body {
     width: 960px;
     padding: 50px;
     border: 13px 270px;
+}
+
+footer {
+    background-color: #666;
+    text-align: center;
+    line-height: 5px;
+    padding: 20px; 
+    position: absolute;
+    width: 100%;  
 }
