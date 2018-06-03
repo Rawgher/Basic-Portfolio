@@ -15,30 +15,32 @@ body {
     float: left;
     color: black;
     text-align: center;
-    padding: 12px;
     text-decoration: none;
-    font-size: 16px;
+    padding: 12px;
+    font-size: 14px;
     line-height: 25px;
-    border-radius: 4px;
 }
 
 #name {
     float: left;
     color: black;
     text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    line-height: 25px;
-    border-radius: 4px;
+    padding: 20px;
+    line-height: 30px;
     background-color: #4aaaa5;
     color: white;
-    margin-left: 147px;
-}
+    left: 270px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bolder;
+    }
 
 
 .header-right {
     float: right;
-    margin-right: 139px;
+    position: relative;
+    right: 260px;
+    top: 12px;
 }
 
 
@@ -47,6 +49,9 @@ body {
     grid-row-gap: 0px;
     grid-template-columns: 200px 200px;
     grid-column-gap: 30px;
+    position: relative;
+    left: 30px;
+    top: 15px;
 }
 
 .bottom-center {
@@ -66,11 +71,21 @@ body {
     margin-top: 13px;
 }
 
+h2 {
+    font-size: 22px;
+    color: #4aaaa5;
+    position: relative;
+    padding: 20px;
+    left: 7px;
+    font-weight: bold;
+}
+
 footer {
     background-color: #666;
     text-align: center;
     line-height: 5px;
     padding: 20px; 
     position: absolute;
-    width: 100%;  
+    width: 100%;
+    bottom: 0px;  
 }
