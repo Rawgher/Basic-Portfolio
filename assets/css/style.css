@@ -6,7 +6,8 @@ body {
     overflow: hidden;
     position: relative;
     background-color: #fff;
-    padding: 20px 10px;
+    width: 100%;
+    margin: 0 auto;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -31,11 +32,13 @@ body {
     border-radius: 4px;
     background-color: #4aaaa5;
     color: white;
+    margin-left: 147px;
 }
 
 
 .header-right {
     float: right;
+    margin-right: 139px;
 }
 
 
@@ -57,10 +60,10 @@ body {
 }
 
 .content {
-    grid-column: center;
     width: 960px;
-    padding: 50px;
-    border: 13px 270px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 13px;
 }
 
 footer {
