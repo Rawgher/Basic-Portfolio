@@ -59,8 +59,8 @@ body {
 .grid-container {
     display: grid;
     grid-row-gap: 0px;
-    grid-template-columns: 200px 200px;
-    grid-column-gap: 30px;
+    grid-template-columns: 250px 250px 250px;
+    grid-column-gap: 74px;
     position: relative;
     padding: 30px;
 }
